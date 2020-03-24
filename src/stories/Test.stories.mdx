@@ -1,0 +1,26 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Textbox, PasswordTextbox, Button } from "src/components";
+
+<Meta title="Form controls" />
+
+Here's some _markdown_!
+
+<Preview>
+  <Story name="Textbox Story">
+    <Textbox />
+  </Story>
+</Preview>
+
+<Props of={Textbox} />
+
+# Preview
+
+<Preview>
+  <Story name="Button Story">
+    <Button>hello</Button>
+  </Story>
+</Preview>
+
+# Props
+
+<Props of={Button} />
